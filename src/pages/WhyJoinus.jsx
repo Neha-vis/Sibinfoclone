@@ -27,13 +27,13 @@ const Items = [
 
 const WhyJoinus = () => {
   return (
-    <section className="min-h-screen bg-white px-4 pb-8">
+    <section className="min-h-screen bg-amber-50 px-4 pb-8 border-t border-t-gray-100">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-7 gap-10">
           <div className="col-span-3">
             <div className="sticky top-0 pt-8">
               <h2 className="text-3xl font-semibold">
-                Why <span className="text-red-600">SIB Infotech</span>
+                Why <span className="text-cyan-600">SIB Infotech</span>
               </h2>
               <p className="text-xl font-medium mt-2 mb-10">
                 Measurable Growth,
@@ -49,7 +49,7 @@ const WhyJoinus = () => {
                   Powered by Social, Paid, Creative & Influencers — We Build
                   Bold Brands, Drive Results, and Spark Meaningful Connections.
                 </p>
-                <button className="bg-red-600 text-white font-bold py-2 px-4 rounded">
+                <button className="bg-cyan-600 text-white font-bold py-2 px-4 rounded">
                   GET A FREE ANALYSIS
                 </button>
               </div>
@@ -57,8 +57,8 @@ const WhyJoinus = () => {
           </div>
 
           <div className="col-span-4">
-            <div className="sticky top-0 mb-10 bg-white pb-5 pt-8 z-10">
-              <h3 className="text-red-600 font-semibold text-lg">
+            <div className="sticky top-0 mb-10 bg-amber-50 pb-5 pt-8 z-10">
+              <h3 className="text-cyan-600 font-semibold text-lg">
                 What Sets Us Apart from Other Digital Agencies in India?
               </h3>
               <p className="text-sm mt-2">
@@ -75,7 +75,7 @@ const WhyJoinus = () => {
                   key={item.id}
                   className="col group p-4 hover:shadow-lg rounded bg-light duration-500 transition-all"
                 >
-                  <h5 className="transition-all duration-500 group-hover:text-red-600 font-semibold text-lg flex items-center justify-between">
+                  <h5 className="transition-all duration-500 group-hover:text-cyan-600 font-semibold text-lg flex items-center justify-between">
                     {item.title}
                     <span className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.4)] text-white text-2xl">
                       {item.id}

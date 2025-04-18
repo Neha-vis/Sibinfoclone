@@ -4,7 +4,7 @@ import BgImage from "../static/images/bgimage.jpg";
 const CallToAction = () => {
   return (
     <section
-      className="relative h-[400px] w-full !bg-fixed !bg-center !bg-contain !bg-no-repeat flex items-center justify-center"
+      className="relative h-[400px] w-full !bg-fixed !bg-center !bg-cover !bg-no-repeat flex items-center justify-center"
       style={{ background: `url(${BgImage})` }}
     >
       <div className="absolute inset-0 h-full w-full bg-black opacity-75"></div>

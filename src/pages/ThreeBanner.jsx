@@ -8,7 +8,7 @@ import OutlineButton from "../components/OutlineButton";
 const Button = ({ text, link }) => (
   <a
     href={link}
-    className="mt-6 inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition"
+    className="mt-6 inline-block bg-cyan-600 hover:bg-cyan-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition"
   >
     {text}
   </a>
@@ -50,7 +50,7 @@ const ThreeBanner = () => {
       <div className="absolute top-0 left-0 w-full h-full overflow-y-auto z-10 text-white py-24 md:py-32 px-6 md:px-12">
         {/* Hero Content */}
         <div className="text-center">
-          <span className="text-sm uppercase tracking-widest text-cyan-400 border border-cyan-500 px-6 py-2 rounded-full mb-6 inline-block">
+          <span className="text-sm uppercase tracking-widest text-cyan-400 border border-cyan-600 px-6 py-2 rounded-full mb-6 inline-block">
             India’s Premier Digital Marketing Agency
           </span>
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6">

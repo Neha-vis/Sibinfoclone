@@ -43,7 +43,7 @@ export default function IndustrySwiper() {
   return (
     <section className="bg-white py-15 px-4">
       <div className="text-center mb-15">
-        <h2 className="text-4xl font-bold text-cyan-800">
+        <h2 className="text-4xl font-bold text-cyan-600">
           Digital Marketing{" "}
           <span className="font-extrabold">for Every Industry</span>
         </h2>
@@ -65,7 +65,7 @@ export default function IndustrySwiper() {
           <SwiperSlide key={index}>
             <div className="flip-card">
               <div className="flip-card-inner">
-                <div className="flip-card-front  bg-cyan-900 rounded-xl overflow-hidden">
+                <div className="flip-card-front  bg-cyan-600 rounded-xl overflow-hidden">
                   <img
                     src={item.img}
                     alt={item.title}

@@ -28,7 +28,7 @@ export default function Navbar() {
         {/* Phone Number with Icon */}
         <div className="text-right flex items-center space-x-2">
           <Phone className="text-gray-600 w-5 h-5" />
-          <p className="text-red-600 font-bold text-xl">92222-60000</p>
+          <p className="text-cyan-600 font-bold text-xl">92222-60000</p>
         </div>
 
         {/* Email */}

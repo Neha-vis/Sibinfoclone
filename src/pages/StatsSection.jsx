@@ -7,11 +7,11 @@ const StatsSection = () => {
         <p className="text-sm text-gray-400">Our Facts</p>
         <h2 className="text-4xl font-bold">
           Turning Clicks into{" "}
-          <span className="text-cyan-500">Conversions.</span>
+          <span className="text-cyan-600">Conversions.</span>
         </h2>
         <p className="mt-2">
-          Optimized for <span className="text-cyan-500">Success</span>.
-          Engineered for <span className="text-cyan-500">Growth</span>.
+          Optimized for <span className="text-cyan-600">Success</span>.
+          Engineered for <span className="text-cyan-600">Growth</span>.
         </p>
       </div>
 
@@ -72,7 +72,7 @@ const StatBox = ({ number, label, extraClass = "" }) => (
   <div
     className={`bg-[#1e1e1e] p-5 rounded-md w-56 text-center shadow-lg border border-gray-700 ${extraClass}`}
   >
-    <h3 className="text-3xl font-bold text-cyan-500">{number}</h3>
+    <h3 className="text-3xl font-bold text-cyan-600">{number}</h3>
     <p className="text-sm text-gray-300 mt-2">{label}</p>
   </div>
 );

@@ -24,7 +24,7 @@ const StrategySection = () => {
       <div className="flex flex-col-reverse md:flex-row items-center gap-10">
         {/* Left Section */}
         <div className="md:w-1/2">
-          <h2 className="text-cyan-800 text-4xl font-bold leading-snug mb-4">
+          <h2 className="text-cyan-600 text-4xl font-bold leading-snug mb-4">
             Strategy. Creativity. Performance.
           </h2>
           <h3 className="text-2xl font-bold mb-2">

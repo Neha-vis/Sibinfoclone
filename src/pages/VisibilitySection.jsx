@@ -30,7 +30,7 @@ const VisibilitySection = () => {
           </h3>
           <h1 className="text-4xl font-bold leading-tight text-gray-900 mb-4">
             Guaranteed Visibility Through <br />
-            <span className="text-cyan-800">
+            <span className="text-cyan-600">
               Our Digital Marketing Services
             </span>
           </h1>
@@ -66,7 +66,7 @@ const VisibilitySection = () => {
 
           {/* CTA Section */}
           <div className="flex flex-wrap items-center gap-6">
-            <button className="bg-cyan-800 hover:bg-cyan-500 text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition">
+            <button className="bg-cyan-600 hover:bg-cyan-600 text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition">
               Let’s Grow Your Business?
               <span className="bg-white text-cyan-400 rounded-full p-1">
                 <svg
@@ -87,7 +87,7 @@ const VisibilitySection = () => {
             </button>
 
             <div className="flex items-center gap-3 text-gray-800">
-              <div className="bg-cyan-80 text-cyan-400 p-2 rounded-full border border-cyan-200">
+              <div className="bg-cyan-60 text-cyan-400 p-2 rounded-full border border-cyan-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-5 h-5"
