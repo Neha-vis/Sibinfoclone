@@ -32,3 +32,8 @@
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+.hero-canvas div,
+.hero-canvas canvas {
+  min-height: 100vh;
+}

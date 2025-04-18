@@ -27,7 +27,10 @@ const ThreeBanner = () => {
   return (
     <div className="w-full min-h-screen relative bg-black">
       {/* Canvas with 3D Particles */}
-      <Canvas camera={{ position: [0, 10, 20], fov: 75 }}>
+      <Canvas
+        className="hero-canvas absolute inset-0 !w-full !min-h-screen"
+        camera={{ position: [0, 10, 20], fov: 75 }}
+      >
         <ambientLight intensity={0.5} />
         <OrbitControls enableZoom={false} autoRotate />
         <gridHelper args={[100, 50, "#00ffff", "#00ffff"]} />
