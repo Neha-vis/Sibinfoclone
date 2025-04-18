@@ -1,5 +1,3 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import OurFact from "../pages/OurFact";
 
 import ServiceCard from "../pages/ServiceCard";
@@ -18,8 +16,6 @@ import StatsBanner from "../pages/StatsBanner";
 const Home = () => {
   return (
     <>
-      <Navbar />
-
       {/* Hero Section */}
 
       <ThreeBanner />
@@ -36,8 +32,6 @@ const Home = () => {
       <ServiceCard />
       <StatsBanner />
       <CallToAction />
-
-      <Footer />
     </>
   );
 };

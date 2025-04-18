@@ -4,12 +4,10 @@ import BgImage from "../static/images/bgimage.jpg";
 const CallToAction = () => {
   return (
     <section
-      className="relative h-[400px] bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url(${BgImage})` }} // Use the imported image directly
+      className="relative h-[400px] w-full !bg-fixed !bg-center !bg-contain !bg-no-repeat flex items-center justify-center"
+      style={{ background: `url(${BgImage})` }}
     >
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>{" "}
-      {/* Darken the overlay more for better visibility of text */}
+      <div className="absolute inset-0 h-full w-full bg-black opacity-75"></div>
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4">
         <h2 className="text-3xl md:text-4xl font-bold">

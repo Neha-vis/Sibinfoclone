@@ -25,7 +25,7 @@ const ThreeBanner = () => {
   }, []);
 
   return (
-    <div className="w-full h-screen relative bg-black">
+    <div className="w-full min-h-screen relative bg-black">
       {/* Canvas with 3D Particles */}
       <Canvas camera={{ position: [0, 10, 20], fov: 75 }}>
         <ambientLight intensity={0.5} />
@@ -43,6 +43,8 @@ const ThreeBanner = () => {
           <pointsMaterial color="#00ffff" size={0.5} />
         </points>
       </Canvas>
+
+      <div className="absolute inset-0 h-full w-full bg-[radial-gradient(#0008_30%,#0003)]"></div>
 
       {/* Overlay Content */}
       <div className="absolute top-0 left-0 w-full h-full overflow-y-auto z-10 text-white py-24 md:py-32 px-6 md:px-12">

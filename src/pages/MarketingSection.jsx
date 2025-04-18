@@ -8,16 +8,16 @@ const MarketingSection = () => {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         {/* LEFT Content */}
         <div>
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider bg-gray-100 text-gray-800 px-4 py-2 rounded-full mb-4">
+          <span className="inline-block text-xs font-semibold uppercase tracking-wider bg-cyan-300 text-slate-950 px-4 py-2 rounded-full mb-4">
             Marketing That Drives Results
           </span>
 
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-4xl font-bold mb-4 !text-white">
             Elevate Your Brand with <br />
-            <span className="text-black">Data Driven Marketing</span>
+            <span className="!text-cyan-300">Data Driven Marketing</span>
           </h2>
 
-          <p className="text-white-600 mb-6 max-w-md">
+          <p className="!text-gray-300 mb-6 max-w-md">
             We craft impactful marketing strategies powered by creativity, AI,
             and data analytics helping you scale faster and smarter.
           </p>

@@ -1,13 +1,14 @@
 import { Menu, Phone } from "lucide-react"; // Import the Phone icon
 import logo from "../static/images/image.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <header className="bg-white shadow-md px-4 py-2 flex items-center justify-between">
       {/* Left: Logo */}
-      <div className="flex-shrink-0">
+      <Link to="/" className="flex-shrink-0">
         <img src={logo} alt="Logo" className="h-16" /> {/* Adjust logo size */}
-      </div>
+      </Link>
 
       {/* Right: Contact Info, WhatsApp, and Phone */}
       <div className="hidden md:flex items-center space-x-5">
